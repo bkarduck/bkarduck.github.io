@@ -5,4 +5,14 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/',
   plugins: [react()],
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        contact: resolve(__dirname, 'contact/index.html'),
+        projects: resolve(__dirname, 'projects/index.html'),
+      },
+    },
+  },
+
 })
