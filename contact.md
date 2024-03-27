@@ -11,9 +11,9 @@
     <p>Email: bkarduck@umich.edu</p>
     <nav>
         <ul>
-            <li><a href="/index.html">About Me</a></li>
-            <li><a href="/projects/index.html">Projects</a></li>
-            <li><a href="/contact/index.html">Contact</a></li>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="projects.md">Projects</a></li>
+            <li><a href="contact.md">Contact</a></li>
             
         </ul>
     </nav>

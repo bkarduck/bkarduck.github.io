@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+</head>
+<body>
+    <h1>Projects</h1>
+    <p>Here are some of my projects.</p>
+    <nav>
+        <ul>
+             <li><a href="index.html">About Me</a></li>
+            <li><a href="projects.md">Projects</a></li>
+            <li><a href="contact.md">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+<!-- <div id="root"></div>  -->
+<!-- <script type="module" src="/src/main.jsx"></script> -->
+</html>
