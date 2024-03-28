@@ -24,7 +24,7 @@ function HomePage() {
           
       </p>
       <h2>Education</h2>
-      <Education title="University of Michigan" description="I am a master's student at the University of Michigan" awards='yeet' imageUrl="./photos/umich.jpeg"/>
+      <Education title="University of Michigan" description="I am a master's student at the University of Michigan" awards='yeet' imageUrl="../photos/umich.jpeg"/>
   </div>
  
    
