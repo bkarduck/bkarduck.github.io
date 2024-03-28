@@ -1,12 +1,15 @@
 
-const Education = ({title, description, awards, imageUrl}) => {
+const Education = ({title, description, awards, imageUrl, gradYear}) => {
   
     return (
         <>
-        <p2>{title}</p2>
+        <p class='p2'>{title}</p>
         <div class="wrapper">
-            <p2 class="one"><img src={imageUrl} alt={title} class='img-small'/></p2>
-            <div class="two">{description}</div>
+            <div class="one"><img src={imageUrl} alt={title} class='img-small'/>
+            </div>
+            <div class="two">{description} <br></br> Graduated in: {gradYear}
+        
+            </div>
             <div class="three">{awards}</div>
         </div>
         {/* <div class = 'data'>

@@ -72,9 +72,10 @@ p {
   line-height: 1.3em;
 }
 
-p2 {
+.p2 {
   
-  margin-bottom: 5.5px;
+  margin-bottom: 15px;
+  margin-top: 30px;
   line-height: 1.3em;
   font-weight: bold;
   /* margin-bottom: 20px; */
@@ -286,10 +287,11 @@ nav > a {
 }
 
 .wrapper > div {
-  border: 1px solid rgb(96, 28, 223);
-  border-radius: 5px;
+  /* border: 1px solid rgb(96, 28, 223); */
+  /* border-radius: 5px; */
   background-color: rgb(247, 241, 233);
-  padding: 1em;
+  padding-left: 1em;
+  
   /* color: #d9480f; */
 }
 
@@ -297,13 +299,18 @@ nav > a {
   display: grid;
   grid-template-columns: 1fr 6fr;
   margin-top: 15px;
+  margin-bottom: 20px;
   /* grid-template-columns: repeat(3, 1fr); */
-  gap: 10px;
+  /* gap: 10px; */
   grid-auto-rows: minmax(10, auto);
-  grid-auto-columns: minmax(10, 10);
+  grid-auto-columns: minmax(5, 10);
 }
 .img-small {
-  width: 6rem;
+  width: 5rem;
+  height:auto
+  /* background-color: inherit; */
+
+  
 }
 .one {
   grid-column: 1 ;
@@ -313,10 +320,21 @@ nav > a {
 .two {
   grid-column: 2 / 4;
   grid-row: 1;
-  font-size: 0.7em;
+  font-size: 0.75em;
+  font-weight: bold;
+  /* justify-content: bottom; */
+  align-items: center;
+
+  /* Actual code */
+  display: flex;
+  /* align-items: center; */
+  /* font-size: 0.5em; */
 }
 .three {
   grid-column: 2 / 4;
   grid-row: 2;
-  font-size: 0.7em;
+  font-size: 0.75em;
+  display: flex;
+  align-items: flex-start;
+  /* font-weight: lighter; */
 }

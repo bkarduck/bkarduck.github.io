@@ -41,6 +41,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import ProjectsPage from './components/ProjectsPage';
 import ContactPage from './components/ContactPage';
+import PreDSPage from './components/PreDSPage';
+
 import './index.css'
 // import './second.css'
 
@@ -61,9 +63,10 @@ function App() {
       <nav id="nav">
         
         
-          <a><Link to="/">Home</Link></a>
-          <a><Link to="/projects">Projects</Link></a>
-          <a><Link to="/contact">Contact</Link></a>
+          <a><Link to="/">home (about me!)</Link></a>
+          <a><Link to="/projects">technical experience & projects</Link></a>
+          <a><Link to="/preDS">my non-technical journey</Link></a>
+          <a><Link to="/contact">contact</Link></a>
   
       </nav>
      
@@ -72,6 +75,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/preDS" element={<PreDSPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
    

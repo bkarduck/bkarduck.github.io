@@ -3,7 +3,7 @@ const Projects = ({title, description, imageUrl, projectUrl}) => {
   
     return (
         <>
-        <p2>{title}</p2>
+        <p class='p2'>{title}</p>
         <div class = 'data'>
             
             <img src = {imageUrl} class = 'data-img'/>
