@@ -1,5 +1,7 @@
 // HomePage.js
 import Education from "./Education";
+import reactLogo from './../assets/react.svg'
+import umich from './../assets/images/umich.png'
 function HomePage() {
     return( 
     <>
@@ -20,11 +22,11 @@ function HomePage() {
       </p>
       <p>
           Currently looking for new grad roles for 2024
-   
+      <img src={reactLogo} className="logo react" alt="React logo" />
           
       </p>
       <h2>Education</h2>
-      <Education title="University of Michigan" description="I am a master's student at the University of Michigan" awards='yeet' imageUrl="/assets/images/umich.png"/>
+      <Education title="University of Michigan" description="I am a master's student at the University of Michigan" awards='yeet' imageUrl={umich}/>
      
   </div>
  
