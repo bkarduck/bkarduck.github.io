@@ -50,7 +50,7 @@ function App() {
     <body>
   
     <div class='container'>
-      <h1>My Portfolio</h1>
+      <h1>Bella Karduck</h1>
    
     </div>
    
