@@ -115,7 +115,7 @@ h2 {
   font-size: 1.6em;
   font-weight: bold;
   text-transform: uppercase;
-  text-decoration: overline solid 5px;
+  /* text-decoration: overline solid 5px; */
   margin-bottom: 20px;
 }
 h3 {
@@ -238,6 +238,11 @@ nav > a {
 
 .smallprint {
   font-size: 0.95em;
+  margin-top: 7.5px;
+}
+
+.smallestprint {
+  font-size: 0.7em;
   margin-top: 7.5px;
 }
 

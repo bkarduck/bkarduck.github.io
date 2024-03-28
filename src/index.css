@@ -201,7 +201,7 @@ h2 {
   font-size: 1.6em;
   font-weight: bold;
   text-transform: uppercase;
-  text-decoration: overline solid 5px;
+  /* text-decoration: overline solid 5px; */
   margin-bottom: 10px;
 }
 h3 {

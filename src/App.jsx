@@ -84,7 +84,7 @@ function App() {
     <footer>
         <div class = 'container'>
           <div class = 'horizontal-line'></div>
-        <p>&copy; 2024 Bella Karduck</p>
+        <p class='smallestprint'>&copy; 2024 Bella Karduck</p>
       </div>
       </footer>
     </body>
