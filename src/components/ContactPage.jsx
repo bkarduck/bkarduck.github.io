@@ -14,7 +14,7 @@ function ContactPage() {
         <h3>Email:</h3>
         <p>bkarduck@umich.edu</p>
         <h3>LinkedIn:</h3>
-        <p>~/bellakarduck</p>
+        <p><a href='https://www.linkedin.com/in/bellakarduck/' id = 'link_para'>~/bellakarduck</a></p>
       </div>
         
       {/* <footer>

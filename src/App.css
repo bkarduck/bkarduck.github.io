@@ -124,6 +124,10 @@ a:active, a:visited {
   color: rgb(8, 74, 155);
 }
 
+#link_para, #link_para:active, #link_para:visited {
+  color: rgb(96, 28, 223);
+}
+
 nav > a, nav > a:visited, nav > a:active {
   /* color: rgb(96, 28, 223); */
   color: rgb(8, 74, 155);
