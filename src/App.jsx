@@ -67,6 +67,8 @@ function App() {
           <a><Link to="/projects">technical experience & projects</Link></a>
           <a><Link to="/preDS">my non-technical journey</Link></a>
           <a><Link to="/contact">contact</Link></a>
+          <a href = "https://github.com/bkarduck">github</a>
+          <a href = "https://www.linkedin.com/in/bellakarduck/">linkedin</a>
   
       </nav>
      

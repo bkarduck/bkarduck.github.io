@@ -125,7 +125,8 @@ a:active, a:visited {
 }
 
 nav > a, nav > a:visited, nav > a:active {
-  color: rgb(96, 28, 223);
+  /* color: rgb(96, 28, 223); */
+  color: rgb(8, 74, 155);
 }
 
 ul {
