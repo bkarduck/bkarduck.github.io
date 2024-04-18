@@ -7,6 +7,7 @@ import stocks from './../assets/images/stocks.png'
 import aon from './../assets/images/aon.png'
 import umsi from './../assets/images/umsi.png'
 import css_meme from './../assets/images/css_meme.jpeg'
+import voxel from './../assets/images/voxel.png'
 
 
 function ProjectsPage() {
