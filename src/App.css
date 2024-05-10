@@ -345,12 +345,12 @@ nav > a {
 
 .wrapper2 {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 2fr;
   margin-top: 5px;
   margin-bottom: 10px;
   /* grid-template-columns: repeat(3, 1fr); */
   /* gap: 10px; */
-  grid-auto-rows: minmax(10, 20);
+  /* grid-auto-rows: minmax(10, 25); */
   display: flex;
   /* grid-auto-columns: minmax(5, auto); */
 }
@@ -372,8 +372,19 @@ nav > a {
 .img-padded {
   width: 13rem;
   height:auto;
+
   padding: 5px;
   padding-right: 25px;
+  display: flex;
+  /* background-color: inherit; */
+
+  
+}
+.img-padded2 {
+  width: 15rem;
+  height:22rem;
+  padding: 6px;
+
   display: flex;
   /* background-color: inherit; */
 
@@ -432,4 +443,19 @@ nav > a {
 
 .boldy {
   font-weight: bold;
+}
+
+
+figure {
+  display: table;
+  margin: 0 auto;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  font-weight: lighter;
+ 
+  text-align: center;
+  font-size: .75em;
 }

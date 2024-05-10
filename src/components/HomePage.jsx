@@ -4,6 +4,11 @@ import Education from "./Education";
 import umich from './../assets/images/umich.png'
 import umsi from './../assets/images/umsi.png'
 import headshot from './../assets/images/BellaKarduck_copy.jpg'
+
+import sintra from './../assets/images/sintra.jpeg'
+import sintra2 from './../assets/images/sintra2.jpeg'
+import go_blue from './../assets/images/go_blue.jpeg'
+import grad_pic from './../assets/images/grad_pic.jpeg'
 function HomePage() {
     return( 
     <>
@@ -51,6 +56,33 @@ function HomePage() {
 
       <Education title="University of Michigan College of Literature, Science and the Arts" description="Bachelor of Science; Double major in Biopsychology, Cognition & Neuroscience and Biomolecular Science" awards='Honors: Phi Beta Kappa, James B. Angell Scholar (7 terms), University Honors (8 terms)' imageUrl={umich} gradYear='2022'/>
 
+
+      <h2>Photos</h2>
+      <div class="wrapper2">
+    
+        <figure>
+        <img src={grad_pic} alt='masters grad' class='img-padded2'/>
+
+        <figcaption>Master's Graduation</figcaption>
+        </figure>
+      <figure>
+      <img src={go_blue} alt='michigan game' class='img-padded2'/>
+
+        <figcaption>Michigan Games!!</figcaption>
+        </figure>
+
+        <figure>
+        <img src={sintra2} alt='sintra' class='img-padded2'/>
+        <figcaption>Sintra, Portugal</figcaption>
+        </figure>
+      </div>
+
+      {/* <figure>
+      <img src={go_blue} alt='michigan game' class='img-padded2'/>
+
+        <figcaption>This is a caption of slightly longer length. It should wrap, regardless of the size of the image.</figcaption>
+        </figure> */}
+      
       
   </div>
  
