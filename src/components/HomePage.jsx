@@ -3,6 +3,7 @@ import Education from "./Education";
 // import reactLogo from './../assets/react.svg'
 import umich from './../assets/images/umich.png'
 import umsi from './../assets/images/umsi.png'
+import headshot from './../assets/images/BellaKarduck_copy.jpg'
 function HomePage() {
     return( 
     <>
@@ -12,20 +13,36 @@ function HomePage() {
     
     <div class="container">
       <h2>About me</h2>
+      <div class="wrapper2">
+      <img src={headshot} alt='headshot' class='img-padded'/>
       <p>
-          I am data scientist, I love to travel, and I was raised in the Chicago suburbs.
+
+            <br></br>
+          I am a data scientist, I love to travel, and I was raised in the Chicago suburbs.
+            <br></br>
+            <br></br>
+          I recently graduated with a Master's of Science in Information from the University of Michigan School of Information. I also went to Michigan for undergrad. I completed a double major in Biopsychology, Cognition & Neuroscience and Biomolecular Science in 2022. Go Blue!
+            <br></br>
+            <br></br>
+
+          Last summer, I was a data science intern at Aon. 
+
+
       </p>
-      <p>
-          I am a master's student at the University of Michigan, set to graduate in May 2024. I graduated from the University of Michigan in 2022 with a double major in Biopsychology, Cognition & Neuroscience and Biomolecular Science. Go blue!
+      {/* <img src={headshot} alt='headshot' class='img-padded'/> */}
+        </div>
+      {/* <p>
+          I recently graduated with a Master's of Science in Information from the University of Michigan School of Information. I also went to Michigan for undergrad. I completed a double major in Biopsychology, Cognition & Neuroscience and Biomolecular Science in 2022. Go Blue!
       </p>
+      <img src={headshot} alt='headshot' class='img-med'/>
       <p>
           Last summer, I was a data science intern at Aon.   
-      </p>
+      </p> */}
       <p>
           My favorite fun fact to share is that I've been to more countries than US states. My last journey took me to Spain and Portugal in March 2024. I also am obsessed with the iMessage game Word Hunt. No shame. 
       </p>
       <p>
-          Currently looking for new grad roles for Summer 2024.
+          Currently looking for new grad Data Scientist/Machine Learning Engineer roles for Summer 2024.
       {/* <img src={reactLogo} className="logo react" alt="React logo" /> */}
           
       </p>

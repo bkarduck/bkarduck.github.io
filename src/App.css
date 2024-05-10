@@ -342,6 +342,18 @@ nav > a {
   grid-auto-rows: minmax(10, auto);
   /* grid-auto-columns: minmax(5, auto); */
 }
+
+.wrapper2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* gap: 10px; */
+  grid-auto-rows: minmax(10, 20);
+  display: flex;
+  /* grid-auto-columns: minmax(5, auto); */
+}
 .img-small {
   width: 5rem;
   height:auto
@@ -353,6 +365,16 @@ nav > a {
 .img-med {
   width: 10rem;
   height:auto
+  /* background-color: inherit; */
+
+  
+}
+.img-padded {
+  width: 13rem;
+  height:auto;
+  padding: 5px;
+  padding-right: 25px;
+  display: flex;
   /* background-color: inherit; */
 
   
